@@ -1,0 +1,20 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif; 
+}
+
+#game-container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 600px; 
+    background: lightblue; 
+    padding: 220px; 
+}
+
+h1{
+    text-transform: uppercase; 
+}
