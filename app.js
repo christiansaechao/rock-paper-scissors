@@ -10,7 +10,6 @@ submitBtn.addEventListener('click', playerGuess);
 
 function playerGuess(e){
     e.preventDefault(); 
-    console.log(gameResolution); 
     // storing the player-input
     const guess = playerInput.value;
     // change the guess to lower case
@@ -39,7 +38,7 @@ function playerGuess(e){
         playerInput.value = "";
     }
     else{
-        result = "You chose " + playerGuess + " & the computer chose " + computerGuess + " you win!";  
+        result = "You chose " + playerGuess + " & the computer chose " + computerGuess + " you won!";  
         playerInput.value = "";
     }
 
